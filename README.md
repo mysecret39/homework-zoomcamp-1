@@ -13,15 +13,13 @@ https://github.com/DataTalksClub/data-engineering-zoomcamp
 3. 15612
 
 ```bash
-   SELECT COUNT(*) FROM green_taxi WHERE CAST(lpep_dropoff_datetime as date)= '2019-09-18' AND CAS
- T(lpep_pickup_datetime AS date) = '2019-09-18'
+   SELECT COUNT(*) FROM green_taxi WHERE CAST(lpep_dropoff_datetime as date)= '2019-09-18' AND CAST(lpep_pickup_datetime AS date) = '2019-09-18'
 ```
 ![image](https://github.com/mysecret39/homework-zoomcamp-1/assets/88777199/564e3aec-f953-452a-9d8f-b017fff00b79)
 
 4. 2019-09-26
 ```bash
-   SELECT MAX(trip_distance), CAST(lpep_pickup_datetime AS DATE) FROM green_taxi GROUP BY lpep_pic
- kup_datetime ORDER BY max DESC limit 10
+   SELECT MAX(trip_distance), CAST(lpep_pickup_datetime AS DATE) FROM green_taxi GROUP BY lpep_pickup_datetime ORDER BY max DESC limit 10
 ```
    ![image](https://github.com/mysecret39/homework-zoomcamp-1/assets/88777199/128acd63-9607-41d6-b231-06b497ac9150)
 
