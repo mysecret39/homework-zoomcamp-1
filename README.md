@@ -1,5 +1,9 @@
 # homework-zoomcamp-1
 
+
+This for answer homework for data-engineer-zoompcamp year 2024
+https://github.com/DataTalksClub/data-engineering-zoomcamp
+
 1. --rm
    
    ![image](https://github.com/mysecret39/homework-zoomcamp-1/assets/88777199/725e8b0e-c327-46ca-a429-5cdd3ba6a35f)
