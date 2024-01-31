@@ -1,6 +1,7 @@
 # homework-zoomcamp-1
 
 1. --rm
+   
    ![image](https://github.com/mysecret39/homework-zoomcamp-1/assets/88777199/725e8b0e-c327-46ca-a429-5cdd3ba6a35f)
 
 3. 0.42.0
